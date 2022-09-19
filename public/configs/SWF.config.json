@@ -1,4 +1,5 @@
 {
+    "DOMAIN": "https://cwms-data.usace.army.mil/cwms-data",
     "projects": {
         "lakes": {
         "Aquilla": "ALAT2",

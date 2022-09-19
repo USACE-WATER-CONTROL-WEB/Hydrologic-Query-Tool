@@ -1,0 +1,71 @@
+{
+    "DOMAIN": "https://cwms-data.usace.army.mil/cwms-data",
+    "OFFICE": "SWF",
+    "projects": {
+        "lakes": {
+            "Aquilla": "ALAT2",
+            "BA Steinhagen": "TBLT2",
+            "Bardwell": "BDWT2",
+            "Belton": "BLNT2",
+            "Benbrook": "BNBT2",
+            "Bob Sandlin": "BSLT2",
+            "Canyon": "SMCT2",
+            "Caddo": "CLDL1",
+            "Cooper": "SCLT2",
+            "Georgetown": "GGLT2",
+            "Granger": "GNGT2",
+            "Grapevine": "GPVT2",
+            "Hords Creek": "HORT2",
+            "Joe Pool": "JPLT2",
+            "Lake O Pines": "JFNT2",
+            "Lavon": "LVNT2",
+            "Lewisville": "LEWT2",
+            "Navarro Mills": "DAWT2",
+            "O.C. Fisher": "SAGT2",
+            "Proctor": "PCTT2",
+            "Ray Roberts": "RRLT2",
+            "Richland Chambers": "FFLT2",
+            "Sam Rayburn": "JSPT2",
+            "Somerville": "SOMT2",
+            "Stillhouse": "STIT2",
+            "Twin Buttes": "TBRT2",
+            "Waco": "ACTT2",
+            "Whitney": "WTYT2",
+            "Wright Patman": "TXKT2"
+        },
+        "timeseries": {},
+        "parameters": {
+            "Elevation": "Elev",
+            "Total Release": "Flow-Out",
+            "Storage": "Stor",
+            "Precipitation": "Precip-INC",
+            "Evaporation": "Evap-Project",
+            "Computed Inflow": "Flow-In"
+        },
+        "intervals": [
+            "hourly",
+            "daily"
+        ],
+        "maps": {
+            "version": {
+                "Elev": "Decodes-Rev",
+                "Stor": "Decodes-Rev",
+                "Flow-Out": "Rev-SWF-REGI",
+                "Evap-Project": "Best-SWF",
+                "Precip-INC": "Metv-ProjectEstimate",
+                "Flow-In": "Computed-SWF-REGI"
+            },
+            "interval": {
+                "Elev": ".Inst.~1Day.0.",
+                "Stor": ".Ave.~1Day.1Day.",
+                "Flow-Out": ".Ave.~1Day.1Day.",
+                "Evap-Project": ".Total.~1Day.1Day.",
+                "Precip-INC": ".Total.~1Day.1Day.",
+                "Flow-In": ".Ave.~1Day.1Day."
+            }
+        }
+    },
+    "streams": {
+        "gages": {}
+    }
+}

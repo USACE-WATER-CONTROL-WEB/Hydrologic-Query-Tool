@@ -1,0 +1,123 @@
+{
+    "DOMAIN": "https://cwms-data.usace.army.mil/cwms-data",
+    "OFFICE": "SWT",
+    "projects": {
+        "lakes": {
+            "ALTU": "Altus Lake",
+            "ARBU": "Arbuckle Lake",
+            "ARCA": "Arcadia Lake",
+            "BIGH": "Big Hill Lake",
+            "BIRC": "Birch Lake",
+            "BROK": "Broken Bow Lake",
+            "CANT": "Canton Lake",
+            "CHEN": "Cheney Lake",
+            "CHOU": "Chouteau LD17",
+            "COPA": "Copan Lake",
+            "COUN": "Council Grove Lake",
+            "DENI": "Denison (Texoma) Lake",
+            "ELDR": "El Dorado Lake",
+            "ELKC": "Elk City Lake",
+            "EUFA": "Eufaula Lake",
+            "FALL": "Fall River Lake",
+            "FCOB": "Ft. Cobb Lake",
+            "FGIB": "Ft. Gibson Lake",
+            "FOSS": "Foss Lake",
+            "FSUP": "Ft. Supply Lake",
+            "GSAL": "Great Salt Plains Lake",
+            "HEYB": "Heyburn Lake",
+            "HUDS": "Hudson Lake",
+            "HUGO": "Hugo Lake",
+            "HULA": "Hulah Lake",
+            "JOHN": "John Redmond Lake",
+            "KAWL": "Kaw Lake",
+            "KEMP": "Kemp Lake",
+            "KEYS": "Keystone Lake",
+            "MARI": "Marion Lake",
+            "MCGE": "McGee Creek Reservoir",
+            "MERE": "Lake Meredith",
+            "NEWT": "Newt Graham LD18",
+            "OOLO": "Oologah Lake",
+            "PATM": "Pat Mayse Lake",
+            "PENS": "Pensacola (Grand Lake)",
+            "PINE": "Pine Creek Lake",
+            "ROBE": "RS Kerr LD15",
+            "SARD": "Sardis Lake",
+            "SKIA": "Skiatook Lake",
+            "TENK": "Tenkiller Lake",
+            "THUN": "Thunderbird Lake",
+            "TOMS": "Tom Steed Lake",
+            "TORO": "Toronto Lake",
+            "WAUR": "Waurika Lake",
+            "WDMA": "W.D. Mayo LD14",
+            "WEBB": "Webbers Falls LD16",
+            "WIST": "Wister Lake"
+        },
+        "timeseries": {},
+        "parameters": {
+            "Elevation": "Elev",
+            "Total Release": "Flow-Out",
+            "Storage": "Stor",
+            "Precipitation": "Precip-INC",
+            "Evaporation": "Evap-Project",
+            "Computed Inflow": "Flow-In"
+        },
+        "intervals": [
+            "hourly",
+            "daily"
+        ],
+        "maps": {
+            "version": {
+                "Elev": "Decodes-Rev",
+                "Stor": "Decodes-Rev",
+                "Flow-Out": "Rev-SWF-REGI",
+                "Evap-Project": "Best-SWF",
+                "Precip-INC": "Metv-ProjectEstimate",
+                "Flow-In": "Computed-SWF-REGI"
+            },
+            "interval": {
+                "Elev": ".Inst.~1Day.0.",
+                "Stor": ".Ave.~1Day.1Day.",
+                "Flow-Out": ".Ave.~1Day.1Day.",
+                "Evap-Project": ".Total.~1Day.1Day.",
+                "Precip-INC": ".Total.~1Day.1Day.",
+                "Flow-In": ".Ave.~1Day.1Day."
+            }
+        }
+    },
+    "streams": {
+        "gages": {},
+        "parameters": {
+            "Elevation": "Elev",
+            "Total Release": "Flow-Out",
+            "Storage": "Stor",
+            "Precipitation": "Precip-INC",
+            "Evaporation": "Evap-Project",
+            "Computed Inflow": "Flow-In"
+        },
+        "intervals": [
+            "hourly",
+            "daily"
+        ],
+        "maps": {
+            "version": {
+                "Elev": "Decodes-Rev",
+                "Stor": "Decodes-Rev",
+                "Flow-Out": "Rev-SWF-REGI",
+                "Evap-Project": "Best-SWF",
+                "Precip-INC": "Metv-ProjectEstimate",
+                "Flow-In": "Computed-SWF-REGI"
+            },
+            "interval": {
+                "Elev": ".Inst.~1Day.0.",
+                "Stor": ".Ave.~1Day.1Day.",
+                "Flow-Out": ".Ave.~1Day.1Day.",
+                "Evap-Project": ".Total.~1Day.1Day.",
+                "Precip-INC": ".Total.~1Day.1Day.",
+                "Flow-In": ".Ave.~1Day.1Day."
+            }
+        }
+    },
+    "locks": {
+        
+    }
+}
